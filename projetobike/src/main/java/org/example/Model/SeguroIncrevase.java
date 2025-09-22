@@ -21,5 +21,16 @@ public class SeguroIncrevase implements Serializable {
     @Column(name = "id")
     private Long id;
 
-    @Column
+    @Column(name = "nome", nullable = false, length = 100)
+    private String nome;
+
+    @Column(name = "sobrenome", nullable = false, length = 100)
+    private String sobrenome;
+
+    @Column( name = "cpf", nullable = false, length = 100)
+    private String cpf;
+
+    @Column(name = "email", nullable = false, length =100)
+    private String email;
 }
+
