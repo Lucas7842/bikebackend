@@ -55,7 +55,7 @@ public class SeguroIncrevase implements Serializable {
     public enum Role {
         ROLE_ADMIN, ROLE_CLIENTE
     }
-    public SeguroIncrevase(String nome, String sobrenome, String cpf, String email, String cep, String numero, String logadouro, String bairro, String cidade, String estado) {
+    public SeguroIncrevase(String nome, String sobrenome, String cpf, String email, String cep) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.cpf = cpf;
